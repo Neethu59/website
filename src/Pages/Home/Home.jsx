@@ -11,6 +11,20 @@ export default function Home() {
     <h3>Choose aplan that's just right for you  !</h3>
     </div>
     
+<div className='mb-2'>
+<div class="switches-container">
+    <input type="radio" id="switchMonthly" name="switchPlan" value="Monthly" checked="checked" />
+    <input type="radio" id="switchYearly" name="switchPlan" value="Yearly" />
+    <label for="switchMonthly">Monthly</label>
+    <label for="switchYearly">Annually</label>
+    <div class="switch-wrapper">
+      <div class="switch">
+        <div>Monthly</div>
+        <div>Annually</div>
+      </div>
+    </div>
+  </div>
+  </div>
  <div class="card-deck "  >
   <Card1/>
   <Card1/>
