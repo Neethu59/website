@@ -4,3 +4,44 @@
     background-color: chartreuse;
     padding:2px 10px;
   }
+  @media (max-width: 576px) {
+ 
+    .card-body {
+      padding: 10px; 
+    }
+  
+    .card-title {
+      font-size: 1.5rem; 
+    }
+  
+    .card-text {
+      font-size: 1rem; 
+    }
+  .user{
+    font-size: 2vw;
+  }
+    
+  }
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+   
+    .card-body {
+      padding: 10px; 
+    }
+  
+    .card-title {
+      font-size: 1.5rem; 
+    }
+  
+    .card-text {
+      font-size: 1rem; 
+    } 
+    .user{
+      font-size: 0.5rem;
+    } 
+    }
+    @media (min-width: 993px) {
+      .card-text {
+        font-size: 1rem; 
+      } 
+    }

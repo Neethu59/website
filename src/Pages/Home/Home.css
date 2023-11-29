@@ -172,3 +172,32 @@ body {
 .switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
     opacity: 1;
 }
+.wrapper{
+    width:100%;
+    display:flex
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  .switches-container{
+    margin-left: auto;
+    margin-right:auto ;
+  }
+    
+  }
+
+
+  @media (min-width: 577px) and (max-width: 992px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+    .switches-container{
+      margin-left: auto;
+      margin-right:auto ;
+    }
+  }
+  
